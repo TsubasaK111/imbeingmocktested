@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>iambeingtested</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header class="header"> 
+      <h1 class="page-title">New Account </h1>
+    </header>
+      <main class="main">
+        <form class="form">
+          <section class="form__section">
+            <label for="name">Name</label>
+            <input 
+              class="form__input" 
+              type="text" 
+              id="name" 
+              name="name" 
+              required 
+            >
+          </section>
+          <section class="form__section">
+            <label for="email">Email</label>
+            <input 
+              class="form__input" 
+              type="email" 
+              id="email" 
+              name="email"
+              required  
+            >
+          </section>
+          <section class="form__section">
+            <label for="password">Password</label>
+            <input 
+              class="form__input" 
+              type="password" 
+              id="password" 
+              name="password" 
+              aria-describedby="warning"
+              required  
+            >
+          </section>
+          <section class="form__section">
+            <div name="warning">2 or more combination of letters, numbers and symbols</div>
+          </section>
+          <section class="form__section">
+            <button> Create Account </button>
+          </section>
+        </form>
+        <a href="/signin">Already have an account? Sign In</a>
+      </main>
+    </div>
+  </body>
+</html>
